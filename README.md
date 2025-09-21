@@ -1,12 +1,39 @@
-# React + Vite
+# 🎬 Movie-Time  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Movie-Time is a movie discovery web app powered by the **TMDB API**, featuring a massive collection of movies (around 1 million).  
+It comes with **debouncing** for efficient searching and uses **Appwrite** as the backend to manage trending movies in database tables.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 🚀 Features  
 
-## Expanding the ESLint configuration
+- 🔎 **Search Movies** – Search from a huge library of movies via TMDB API.  
+- ⚡ **Debounced Input** – Optimized search with debouncing to avoid unnecessary API calls.  
+- 📊 **Trending Movies** – Integrated with **Appwrite** to dynamically store and display trending movies based on user activity.  
+- 📱 **Responsive Design** – Fully mobile-friendly UI for smooth usage across all devices.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 🖼️ Screenshots  
+
+### 🏠 Home Page  
+![Home Page](https://github.com/usamam46-git/Movie-Time/blob/main/Homepage.png?raw=true)  
+
+
+
+### 📈 Trending Movies List  
+![Trending List](https://github.com/usamam46-git/Movie-Time/blob/main/Trending.png?raw=true)  
+
+
+
+### 📱 Mobile Responsiveness  
+![Mobile Responsive](https://github.com/usamam46-git/Movie-Time/blob/main/Mobile%20page%20responsiveness.png?raw=true)  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS  
+- **API:** TMDB API  
+- **Database:** Appwrite (for trending movies feature)  
